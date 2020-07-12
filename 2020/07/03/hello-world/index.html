@@ -127,6 +127,24 @@
 
   <title>Hello World | LNF Needs Freedom</title>
   
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '645390206061559',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/zh_TW/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
 
 
 
@@ -275,6 +293,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2020/07/03/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count fb-comments-count" data-href="http://strengthviii.github.io/2020/07/03/hello-world/" itemprop="commentCount">0</span> comments
+                </a>
+              </span>
+            
           
 
           
@@ -372,6 +400,16 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div class="fb-comments"
+           data-href="http://strengthviii.github.io/2020/07/03/hello-world/"
+           data-numposts="10"
+           data-width="100%"
+           data-colorscheme="light">
+      </div>
+    </div>
 
   
 
