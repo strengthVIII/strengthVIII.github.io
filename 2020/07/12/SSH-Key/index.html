@@ -105,15 +105,15 @@
 
 
 
-<meta name="description" content="建立ssh key可以讓連線遠端主機時不用輸入密碼，節省時間。首先在本機端輸入 1ssh-keygen 接著會要你輸入ssh key的位置和金鑰的密碼(如果你需要很高的安全性)，通常全部都enter使用預設就可以了。建立好ssh key後再輸入以下指令把建好的金鑰複製到遠端主機 1ssh-copy-id -i [ssh key的位置] [遠端使用者]@[遠端主機的IP位置] ssh key的位置就">
+<meta name="description" content="建立ssh key可以讓連線遠端主機時不用輸入密碼，節省時間。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SSH-Key">
 <meta property="og:url" content="http://strengthviii.github.io/2020/07/12/SSH-Key/index.html">
 <meta property="og:site_name" content="LNF Needs Freedom">
-<meta property="og:description" content="建立ssh key可以讓連線遠端主機時不用輸入密碼，節省時間。首先在本機端輸入 1ssh-keygen 接著會要你輸入ssh key的位置和金鑰的密碼(如果你需要很高的安全性)，通常全部都enter使用預設就可以了。建立好ssh key後再輸入以下指令把建好的金鑰複製到遠端主機 1ssh-copy-id -i [ssh key的位置] [遠端使用者]@[遠端主機的IP位置] ssh key的位置就">
+<meta property="og:description" content="建立ssh key可以讓連線遠端主機時不用輸入密碼，節省時間。">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2020-07-12T07:29:12.000Z">
-<meta property="article:modified_time" content="2020-07-12T07:43:49.195Z">
+<meta property="article:modified_time" content="2020-07-24T04:18:15.078Z">
 <meta property="article:author" content="strength">
 <meta name="twitter:card" content="summary">
 
@@ -355,7 +355,10 @@
       
 
       
-        <p>建立ssh key可以讓連線遠端主機時不用輸入密碼，節省時間。<br>首先在本機端輸入</p>
+        <p>建立ssh key可以讓連線遠端主機時不用輸入密碼，節省時間。</p>
+<a id="more"></a>
+
+<p>首先在本機端輸入</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure>
 <p>接著會要你輸入ssh key的位置和金鑰的密碼(如果你需要很高的安全性)，通常全部都enter使用預設就可以了。<br>建立好ssh key後再輸入以下指令把建好的金鑰複製到遠端主機</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-copy-id -i [ssh key的位置] [遠端使用者]@[遠端主機的IP位置]</span><br></pre></td></tr></table></figure>
